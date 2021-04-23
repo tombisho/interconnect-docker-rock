@@ -20,7 +20,7 @@ restart:
 	docker-compose -f $(docker_compose_file) restart
 
 pull:
-	docker-compose -f $(docker_compose_file) pull
+	docker-compose -f $(docker_compose_file) pull --include-deps
 
 logs:
 	docker-compose -f $(docker_compose_file) logs -f
