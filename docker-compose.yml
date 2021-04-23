@@ -1,7 +1,7 @@
 version: '3'
 services:
   rock-base:
-    #image: datashield/rock-base:latest
+    #image: datashield/rock-base:snapshot
     build: .
     ports:
       - ${PORT}:8085
