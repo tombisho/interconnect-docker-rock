@@ -1,8 +1,8 @@
 version: '3'
 services:
-  rock-base:
-    #image: datashield/rock-base:snapshot
-    build: .
+  rock-mediation:
+    image: datashield/mediation:latest
+    #build: .
     ports:
       - ${PORT}:8085
     environment:
