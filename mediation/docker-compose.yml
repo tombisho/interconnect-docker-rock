@@ -1,7 +1,7 @@
 version: '3'
 services:
-  rock-base:
-    image: datashield/rock-exposome:latest
+  rock-mediation:
+    image: datashield/mediation:latest
     #build: .
     ports:
       - ${PORT}:8085
