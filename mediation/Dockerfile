@@ -6,7 +6,7 @@
 
 FROM datashield/rock-base:latest
 
-ENV DSMEDIATION_VERSION 0.0.1
+ENV DSMEDIATION_VERSION 0.0.2
 
 ENV ROCK_LIB /var/lib/rock/R/library
 
