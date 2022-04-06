@@ -8,7 +8,7 @@ FROM obiba/rock:1.0-R4.1
 
 LABEL DataSHIELD <info@datashield.ac.uk>
 
-ENV DSBASE_VERSION 6.1.1
+ENV DSBASE_VERSION 6.2.0
 
 ENV ROCK_LIB /var/lib/rock/R/library
 
