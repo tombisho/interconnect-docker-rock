@@ -11,7 +11,7 @@ ENV DSMEDIATION_VERSION 0.0.2
 ENV ROCK_LIB /var/lib/rock/R/library
 
 # Install new R packages
-# dsExposome
+# dsMediation
 RUN Rscript -e "remotes::install_github('datashield/dsMediation', ref = '$DSMEDIATION_VERSION', repos = c('https://cloud.r-project.org', 'https://cran.datashield.org'), upgrade = FALSE, lib = '$ROCK_LIB')"
 
 
