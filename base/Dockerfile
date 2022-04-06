@@ -13,7 +13,7 @@ ENV DSBASE_VERSION 6.1.1
 ENV ROCK_LIB /var/lib/rock/R/library
 
 # Additional system dependencies
-#RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y ???
+RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y cmake 
 
 # Update R packages
 #RUN Rscript -e "update.packages(ask = FALSE, repos = c('https://cloud.r-project.org'), instlib = '/usr/local/lib/R/site-library')"
